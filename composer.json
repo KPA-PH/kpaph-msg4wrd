@@ -1,0 +1,21 @@
+{
+    "name": "kpaph/msg4wrdio",
+    "description": "SMS Gateway API",
+    "type":"library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "King Paulo Aquino",
+            "email": "me@kpa.ph"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "KPAPH\\MSG4wrdIO\\": "src/"
+        }
+    }
+}
