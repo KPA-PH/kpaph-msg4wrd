@@ -55,10 +55,10 @@ use KPAPH\MSG4wrdIO\Services\MSG4wrd;
 
 class SMSController extends Controller
 {
-    // $option = [
+    // $options = [
     //     "sendername" => "Default|MSG4wrd|YourBrandID", 
     //     "priority" => 0|1, 
-    //     "local" => 0|1
+    //     "country" => Country::PH|Country::US
     // ]
 
     // sendername => Default = Typical Number or Simbased or What is available
@@ -68,8 +68,8 @@ class SMSController extends Controller
     // priority => 0 = Normal
     // priority => 1 = High - This will charge you more
 
-    // local => 0 = Philippines Only
-    // local => 1 = US, Canada, and Philippines Only - This will charge you more
+    // country => 0 = Philippines Only
+    // country => 1 = US, Canada, and Philippines Only - This will charge you more
 
     public function SMSSendNormal() {
 
